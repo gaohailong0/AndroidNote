@@ -1,2 +1,2 @@
 # AndroidNote
-Android笔记。
+Android开发笔记。
