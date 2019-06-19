@@ -1,0 +1,13 @@
+关于AndroidNote的相关说明：
+
+1.在AndroidManifest.xml文件中，整个<Application>警告：Warning: App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent filter. See issue explanation for more details.
+A：在app的build.gradle中添加下列代码：
+lintOptions {
+        disable 'GoogleAppIndexingWarning'
+}
+参考链接：https://www.jianshu.com/p/93678f8b3421
+
+2.更改TabLayout的文字大小.
+A：给TabLayout设置一个属性app:tabTextAppearance="@style/TabLayoutTextStyle"
+
+3.
